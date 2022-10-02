@@ -48,7 +48,7 @@ mkdir /opt/k8s-lab/
    - Enter an item name: `Deploy_on_Kubernetes_CI`     
 
    - *Source Code Management:*
-      - Repository: `https://github.com/maheshkn400/hello-world.git`
+      - Repository: `https://github.com/santosh-786/hello-world.git`
       - Branches to build : `*/master`
 
    - *Build*
