@@ -25,7 +25,7 @@ Table of content
   - [Devops Project 3](./Devops-projects/devops-project-3/) - tools included `Git`, `github`, `Jenkins`, `Maven`, and `Docker`.
   - [Devops Project 4](./Devops-projects/devops-project-4) - tools included `Git`, `github`, `Jenkins`, `Maven`, `Ansible` and `Docker`.
   - [Devops Project 5](./Devops-projects/devops-project-5/) - tools included `Git`, `github`, `Jenkins`, `Maven`, `Ansible`, `Docker hub` and `kubernetes cluster`.
-  - [Devops Project 5](./Devops-projects/devops-project-5/) - tools included `Git`, `github`, `Jenkins`, `Maven`, `Ansible`, `Docker hub` and `Docker container`.
+  - [Devops Project 6](./Devops-projects/devops-project-6/) - tools included `Git`, `github`, `Jenkins`, `Maven`, `Ansible`, `Docker hub` and `Docker container`.
 <!--te-->
 
 :smile:
