@@ -37,7 +37,7 @@ To deploy our build artifacts on tomcat server our Jenkins server need access. F
   - Enter Item name: `Simple Devops Project 1`
     - `Maven Project`
   - Source Code Management:
-    - Repository: `https://github.com/maheshkn400/hello-world.git`
+    - Repository: `https://github.com/santosh-786/hello-world.git`
     - Branches to build : */master`
   - Build:
     - Root POM:`pom.xml`
