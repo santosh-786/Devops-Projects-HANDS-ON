@@ -30,7 +30,7 @@ vi Dockerfile
 # Pull base image
 From tomcat:8-jre8
 # Maintainer
-MAINTAINER "maheshkumar.root@gmail.com"
+MAINTAINER "poudelsantosh9866@gmail.com"
 
 # copy war file on to container
 COPY ./webapp.war /usr/local/tomcat/webapps
@@ -60,7 +60,7 @@ Test the connection by clicking `Test Connection` and save
 Jenkins Dashboard >> click `New item`
 - Enter item name: `Simple-Devops-Project-3`
   - Source Code Management  
-    - Repository : `https://github.com/ValaxyTech/hello-world.git`
+    - Repository : `https://github.com/santosh-786/xyz.git`
     - Branches to build : `*/master`
   - Build
     - Root POM: `pom.xml`  
@@ -68,7 +68,7 @@ Jenkins Dashboard >> click `New item`
 
   - Send files or execute commands over SSH
     - Name: `docker_host`
-    - Source files	: `webapp/target/*.war`
+    - Source files	: `target/*.war`
     - Remove prefix	: `webapp/target`
     - Remote directory	: `//opt//docker`  
   - Exec command[s]	:
