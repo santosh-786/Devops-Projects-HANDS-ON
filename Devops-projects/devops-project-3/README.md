@@ -28,7 +28,7 @@ Write a `Dockerfile` under `/opt/docker`
 vi Dockerfile
 
 # Pull base image
-From tomcat:8-jre8
+From tomcat:latest
 # Maintainer
 MAINTAINER "poudelsantosh9866@gmail.com"
 
@@ -73,16 +73,16 @@ Jenkins Dashboard >> click `New item`
     - Remote directory	: `//opt//docker`  
   - Exec command[s]	:
   ~~~sh
-  docker stop mkn400_demo;
-  docker rm -f mkn400_demo;
-  docker image rm -f mkn400_demo_img;
+  docker stop docker_demo;
+  docker rm -f docker_demo;
+  docker image rm -f docker_demo_img;
   cd /opt/docker;
-  docker build -t mkn400_demo_img .
+  docker build -t docker_demo_img .
   ~~~
 
   - send files or execute commands over SSH  
     - Name: `docker_host`  
-    - Exec command	: `docker run -d --name mkn400_demo -p 8090:8080 mkn400_demo_img`  
+    - Exec command	: `docker run -d --name docker_demo -p 8090:8080 docker_demo_img`  
 
 Login to Docker host and check images and containers before run the job. (no images and containers)
 
